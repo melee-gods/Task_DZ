@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 100px;
+}
+
+.block-one{
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.block-two{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
